@@ -9,6 +9,11 @@ services:
     tags:
       - { name: kernel.event_listener, event: kernel.request, priority: 10000 }
 
+  Rinsvent\Dto2DataBundle\EventListener\ResponseListener:
+    autowire: true
+    tags:
+      - { name: kernel.event_listener, event: kernel.response, priority: 10000 }
+
   Rinsvent\Dto2DataBundle\Service\ServiceResolver:
     bind:
       $transformerLocator: !tagged_locator { tag: 'rinsvent.dto2data.transformer', index_by: 'key', default_index_method: 'getLocatorKey' }
