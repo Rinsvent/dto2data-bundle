@@ -1,10 +1,10 @@
 <?php
 
-namespace Rinsvent\Dto2DataBundle\Service;
+namespace Rinsvent\DTO2DataBundle\Service;
 
-use Rinsvent\Dto2Data\Resolver\TransformerResolverInterface;
-use Rinsvent\Dto2Data\Transformer\Meta;
-use Rinsvent\Dto2Data\Transformer\TransformerInterface;
+use Rinsvent\DTO2Data\Resolver\TransformerResolverInterface;
+use Rinsvent\DTO2Data\Transformer\Meta;
+use Rinsvent\DTO2Data\Transformer\TransformerInterface;
 use Symfony\Component\DependencyInjection\ServiceLocator;
 
 class ServiceResolver implements TransformerResolverInterface

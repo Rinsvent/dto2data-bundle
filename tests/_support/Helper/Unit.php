@@ -1,11 +1,11 @@
 <?php
-namespace Rinsvent\Dto2DataBundle\Tests\Helper;
+namespace Rinsvent\DTO2DataBundle\Tests\Helper;
 
 // here you can define custom actions
 // all public methods declared in helper class will be available in $I
 
-use Rinsvent\Dto2DataBundle\EventListener\RequestListener;
-use Rinsvent\Dto2DataBundle\Tests\unit\Listener\fixtures\FillTest\Controller;
+use Rinsvent\DTO2DataBundle\EventListener\RequestListener;
+use Rinsvent\DTO2DataBundle\Tests\unit\Listener\fixtures\FillTest\Controller;
 use Symfony\Component\EventDispatcher\EventDispatcher;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\RequestStack;

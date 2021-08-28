@@ -1,6 +1,6 @@
 <?php
 
-namespace Rinsvent\Dto2DataBundle\EventListener;
+namespace Rinsvent\DTO2DataBundle\EventListener;
 
 use Symfony\Component\HttpKernel\Event\ResponseEvent;
 

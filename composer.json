@@ -23,12 +23,12 @@
     "autoload": {
         "psr-4": {
             "tests\\": "tests/",
-            "Rinsvent\\Dto2DataBundle\\": "src/"
+            "Rinsvent\\DTO2DataBundle\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Rinsvent\\Dto2DataBundle\\Tests\\": "tests/"
+            "Rinsvent\\DTO2DataBundle\\Tests\\": "tests/"
         }
     }
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace Rinsvent\Dto2DataBundle\Storage\Response;
+namespace Rinsvent\DTO2DataBundle\Storage\Response;
 
 class Header
 {

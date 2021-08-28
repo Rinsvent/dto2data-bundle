@@ -1,8 +1,8 @@
 <?php
 
-namespace Rinsvent\Dto2DataBundle\Service\Transformer\Request\Headers;
+namespace Rinsvent\DTO2DataBundle\Service\Transformer\Request\Headers;
 
-use Rinsvent\Dto2Data\Transformer\Meta;
+use Rinsvent\DTO2Data\Transformer\Meta;
 
 #[\Attribute]
 class Header extends Meta

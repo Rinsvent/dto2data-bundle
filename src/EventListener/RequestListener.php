@@ -1,9 +1,9 @@
 <?php
 
-namespace Rinsvent\Dto2DataBundle\EventListener;
+namespace Rinsvent\DTO2DataBundle\EventListener;
 
-use Rinsvent\Dto2Data\Resolver\TransformerResolverStorage;
-use Rinsvent\Dto2DataBundle\Service\ServiceResolver;
+use Rinsvent\DTO2Data\Resolver\TransformerResolverStorage;
+use Rinsvent\DTO2DataBundle\Service\ServiceResolver;
 use Symfony\Component\HttpKernel\Event\RequestEvent;
 
 class RequestListener

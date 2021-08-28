@@ -1,10 +1,10 @@
 <?php
 
-namespace Rinsvent\Dto2DataBundle\Service\Transformer\Request\Headers;
+namespace Rinsvent\DTO2DataBundle\Service\Transformer\Request\Headers;
 
-use Rinsvent\Dto2Data\Transformer\Meta;
-use Rinsvent\Dto2DataBundle\Service\AbstractTransformer;
-use Rinsvent\Dto2DataBundle\Storage\Response\Header as HeaderStorage;
+use Rinsvent\DTO2Data\Transformer\Meta;
+use Rinsvent\DTO2DataBundle\Service\AbstractTransformer;
+use Rinsvent\DTO2DataBundle\Storage\Response\Header as HeaderStorage;
 
 class HeaderTransformer extends AbstractTransformer
 {

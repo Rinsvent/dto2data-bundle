@@ -1,6 +1,6 @@
 <?php
 
-namespace Rinsvent\Dto2DataBundle\Tests;
+namespace Rinsvent\DTO2DataBundle\Tests;
 
 /**
  * Inherited Methods

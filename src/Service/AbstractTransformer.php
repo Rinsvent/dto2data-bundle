@@ -1,8 +1,8 @@
 <?php
 
-namespace Rinsvent\Dto2DataBundle\Service;
+namespace Rinsvent\DTO2DataBundle\Service;
 
-use Rinsvent\Dto2Data\Transformer\TransformerInterface;
+use Rinsvent\DTO2Data\Transformer\TransformerInterface;
 
 abstract class AbstractTransformer implements TransformerInterface
 {

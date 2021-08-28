@@ -1,13 +1,13 @@
 <?php
 
-namespace Rinsvent\Dto2DataBundle\DependencyInjection;
+namespace Rinsvent\DTO2DataBundle\DependencyInjection;
 
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Extension\Extension;
 use Symfony\Component\DependencyInjection\Loader\YamlFileLoader;
 
-class Dto2DataExtension extends Extension
+class DTO2DataExtension extends Extension
 {
     public function load(array $configs, ContainerBuilder $container)
     {
